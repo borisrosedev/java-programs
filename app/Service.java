@@ -1,10 +1,21 @@
 package app;
 
 public class Service implements Crud {
-    String name = "Service";
-    private int servicesCount = 0x000F & 0x5555;
+    String name;
+    int servicesCount;
+    private boolean isInitialized = initializeFields();
+
+    protected final boolean initializeFields(){
+        this.name = "Service";
+        this.servicesCount = 0x000F & 0x5555;
+        return true;
+    }
 
 
+
+    public Service(){
+
+    }
 
     // constructor 
     public Service(String n){
