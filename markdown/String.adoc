@@ -1,0 +1,26 @@
+= Character strings
+
+== java.lang.String class
+
+In addition to the eight primitive data types listed above, the Java programming language also provides special support for character strings via the java.lang.String class. 
+
+== double quotes
+
+Enclosing your character string within double quotes will automatically create a new String object; 
+
+for example:
+
+[source, java]
+----
+String s = "this is a string";
+----
+
+== Immutable
+
+String objects are immutable, which means that once created, their values cannot be changed. 
+
+== not technically a primitive data type
+
+The String class is not technically a primitive data type, but considering the special support given to it by the language, you will probably tend to think of it as such. You will learn more about the String class in the section Strings.
+
+ 

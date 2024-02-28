@@ -1,0 +1,9 @@
+= Class Literal
+
+== Explanation
+
+There is also a special kind of literal called a class literal, formed by taking a type name and appending .class.
+
+For example:  String.class. 
+
+This refers to the object that represents the type itself, of type Class.
